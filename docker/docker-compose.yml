@@ -1,0 +1,8 @@
+version: '3.2'
+
+services:
+    logo-print:
+        build:
+          context: ./$PATH_OMS_LOGO_PRINT/logo-print/
+          dockerfile: ./Dockerfile.dev
+        image: aegee/logo-print:dev
