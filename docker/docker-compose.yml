@@ -5,4 +5,4 @@ services:
         build:
           context: ./$PATH_OMS_LOGO_PRINT/logo-print/
           dockerfile: ./Dockerfile.dev
-        image: aegee/logo-print:dev
+        image: i3anaan/terraindex
